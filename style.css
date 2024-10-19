@@ -8,7 +8,6 @@
 body {
     background: #000000;
     position: relative;
-    padding-bottom: 5rem;
 }
 
 .ul-header {
@@ -22,6 +21,7 @@ body {
 
 .img-logo {
     height: 1.8rem;
+    margin-top: 0.8rem;
 }
 
 .netflix {
@@ -29,36 +29,37 @@ body {
 }
 
 .main-video {
-    width: 100vw;
+    width: 100%;
     min-height: 80vh;
 }
 
 .text {
     position: absolute;
-    bottom: 30%;
+    bottom: 40%;
     left: 5%;
-    width: 55%;
+    width: 35%;
     z-index: 3;
 }
 
 .tittle {
     font-size: 4rem;
     margin-bottom: 0.5rem;
-    font-weight: bold
+    font-weight: bold;
+    color: #ffffff;
 }
 
 .description {
     font-size: 1rem;
+    color: #ffffff;
     margin-bottom: 1.5rem;
 }
 
 .attend, .information {
     background-color: #ffffff;
-    color: #ffffff;
     padding: 0.8rem 1.5rem;
     border-radius: 0.3rem;
     cursor: pointer;
-
+    font-weight: 600;
 }
 
 .information {
@@ -67,18 +68,19 @@ body {
 
 .img-carousel {
     width: 350px;
+    height: 150px;
 }
 
 #carouselExampleControls {
     background-color: transparent;
     position: absolute;
-    bottom: -4.5rem;
+    bottom: -3.5rem;
     left: 4.5rem;
 }
 
 .tittle-caroseul {
     color: #ffffff;
     font-size: 1.5rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.5rem;
 }
 
