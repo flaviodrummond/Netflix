@@ -35,7 +35,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .menu a {
@@ -90,7 +90,7 @@ body {
 }
 
 .img-carousel {
-    width: 250px;
+    width: 300px;
     height: 150px;
 }
 
@@ -98,7 +98,7 @@ body {
     background-color: transparent;
     position: absolute;
     bottom: -9.5rem;
-    left: 4.5rem;
+    left: 6.5rem;
 }
 
 .tittle-caroseul {
@@ -112,15 +112,17 @@ body {
     height: 1.5rem;
 }
 
+
 .sound {
-    border: none;
     background-color: transparent;
     border-radius: 5px;
     cursor: pointer;
     z-index: 4;
     position: absolute;
-    top: 130px;
-    right: 50px;
+    top: 120px;
+    left: 50px;
+    box-shadow: none;
+    border: none;
 }
 
 .sound:hover {
