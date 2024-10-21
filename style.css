@@ -9,15 +9,7 @@ body {
     background: #000000;
     position: relative;
     padding-top: 1.2rem;
-}
-
-.ul-header {
-    height: 1.8rem;
-    width: 95%;
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    position: fixed;
+    margin-bottom: 12rem;
 }
 
 .img-logo {
@@ -25,7 +17,37 @@ body {
 }
 
 .netflix {
-    margin-left: 2rem;
+    position: absolute;
+    left: 3%;
+    top: 2%;
+
+}
+
+.avatar {
+    position: absolute;
+    right: 15%;
+    top: 2%;
+}
+
+.menu {
+    width: 95%;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+
+.menu a:hover {
+    color: #585656;
+    text-decoration: underline;
 }
 
 .main-video {
@@ -35,46 +57,47 @@ body {
 
 .text {
     position: absolute;
-    bottom: 40%;
+    bottom: 20%;
     left: 5%;
-    width: 35%;
+    width: 45%;
     z-index: 3;
-}
-
-.tittle {
-    font-size: 4rem;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
     color: #ffffff;
 }
 
+.logo-round6 {
+    width: 85%;
+    margin-left: -20px;
+}
+
 .description {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #ffffff;
     margin-bottom: 1.5rem;
 }
 
 .attend, .information {
-    background-color: #ffffff;
+    background-color: rgba(233, 6, 22, 0.9)
+    ;
     padding: 0.8rem 1.5rem;
     border-radius: 0.3rem;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 400;
 }
+
 
 .information {
     background-color: rgba(255, 255, 255, 0.35) ;
 }
 
 .img-carousel {
-    width: 350px;
+    width: 250px;
     height: 150px;
 }
 
 #carouselExampleControls {
     background-color: transparent;
     position: absolute;
-    bottom: -3.5rem;
+    bottom: -9.5rem;
     left: 4.5rem;
 }
 

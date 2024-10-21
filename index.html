@@ -1,81 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Netflix</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Netflix</title>
 </head>
+
 <body>
-    <header>
-        <ul class="ul-header">
-            <li><img class="img-logo netflix" src="img/logo.png" alt="Logo Netflix"></li>
-            <li><img class="img-logo" src="img/avatar.png" alt="Avatar do Login"></li>
-        </ul>
-    </header>
-    <section>
+  <header>
+    <div class="menu">
+      <img class="img-logo netflix" src="img/logo.png" alt="Logo Netflix">
+      <a href="">Início</a>
+      <a href="">Séries</a>
+      <a href="">Filmes</a>
+      <a href="">Bombando</a>
+      <a href="">Minha Lista</a>
+      <img class="img-logo avatar" src="img/avatar.png" alt="Avatar do Login">
+    </div>
+  </header>
+  <section>
 
-        <div class="text">
-            <h1 class="tittle">Round 6</h1>
-            <p class="description">Centenas de jogadores falidos aceitam um estranho convite para um jogo de sobrevivência. Um prêmio milionário aguarda, mas as apostas são altas e mortais.</p>
+    <div class="text">
+      <img class="logo-round6" src="./img/Round6.png" alt="Série Round 6">
+      <p class="description">Round 6 é uma competição onde perder custa a vida.
+        Centenas de participantes, afogados em dívidas, são atraídos por um prêmio bilionário e enfrentam jogos infantis
+        trasnformandos em desafios mortais. Conforme o número de sobreviventes diminui, a tensão aumenta.</p>
 
-            <a class="attend">Assistir</a>
-            <a class="information">Mais Informações</a>
+      <a class="attend">Assistir</a>
+      <a class="information">Mais Informações</a>
+    </div>
+
+    <video class="main-video" src="video/round6.mp4" autoplay loop></video>
+
+    <button class="sound"><img class="img-sound" src="./img/som.png" alt="Som"></button>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <h2 class="tittle-caroseul">Descubra suas próximas hitórias</h2>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img-carousel" src="img/Stranger-things.jpg" alt="Stranger Things">
+          <img class="img-carousel" src="img/abyss.jpg" alt="Abyss">
+          <img class="img-carousel" src="img/f1.jpg" alt="F1">
+          <img class="img-carousel" src="img/breaking-bad.webp" alt="Breaking">
+          <img class="img-carousel" src="img/hunter.jpg" alt="Hunter">
+          
+        </div>
+        <div class="carousel-item">
+          <img class="img-carousel" src="img/Narcos.jpg" alt="Narcos">
+          <img class="img-carousel" src="img/jaula.jpg" alt="Jaula">
+          <img class="img-carousel" src="img/moonfall.jpg" alt="Monnfall">
+          <img class="img-carousel" src="img/equalizer.jpg" alt="Equalizer">
+          <img class="img-carousel" src="img/lift.jpg" alt="Lift">
         </div>
 
-        <video class="main-video" src="video/round6.mp4" autoplay muted loop></video>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
 
-        <button class="sound"><img class="img-sound" src="./img/som.png" alt="Som"></button>
+    <div class="box">
+      <div class="box-info">
+        <h2>Round 6</h2>
+        <p>Round 6, série sul-coreana original da Netflix, acompanha um grupo de pessoas desesperadas por dinheiro que
+          recebem um misterioso convite para participar de jogos competitivos inspirados em brincadeiras infantis. Sem
+          saber qualquer coisa sobre o convite, centenas de pessoas comparecem ao local para participar do evento. Ao
+          final do jogo, o vencedor poderá levar para casa um prêmio milionário e resolver todas as suas dívidas. Porém,
+          o que eles não sabem é que os perdedores não saírão vivos desse jogo. Agora os competidores precisarão lutar
+          para sobreviver a essa macabra disputa.</p>
+        <p>Gênero: <strong>Drama, Suspense</strong></p>
+        <p>Ano de Lançamento: <strong>2021</strong></p>
+        <p>Estrelando: <strong>Lee Jung-jae, Park Hae-soo, Wi Ha-jun</strong></p>
+        <p>Criação: <strong>Hwang Dong-hyuk</strong></p>
+      </div>
+    </div>
 
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <h2 class="tittle-caroseul">Principais Filmes e Séries</h2>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="img-carousel" src="img/abyss.jpg" alt="Abyss">
-                <img class="img-carousel" src="img/f1.jpg" alt="F1">
-                <img class="img-carousel" src="img/chokehold.jpg" alt="Chokehold">
-                <img class="img-carousel" src="img/hunter.jpg" alt="Hunter">
-              </div>
-              <div class="carousel-item">
-                <img class="img-carousel" src="img/jaula.jpg" alt="Jaula">
-                <img class="img-carousel" src="img/moonfall.jpg" alt="Monnfall">
-                <img class="img-carousel" src="img/equalizer.jpg" alt="Equalizer">
-                <img class="img-carousel" src="img/lift.jpg" alt="Lift">        
-              </div>
-              
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Próximo</span>
-            </a>
-          </div>
+  </section>
 
-          <div class="box">
-            <div class="box-info">
-              <h2>Round 6</h2>
-              <p>Round 6, série sul-coreana original da Netflix, acompanha um grupo de pessoas desesperadas por dinheiro que recebem um misterioso convite para participar de jogos competitivos inspirados em brincadeiras infantis. Sem saber qualquer coisa sobre o convite, centenas de pessoas comparecem ao local para participar do evento. Ao final do jogo, o vencedor poderá levar para casa um prêmio milionário e resolver todas as suas dívidas. Porém, o que eles não sabem é que os perdedores não saírão vivos desse jogo. Agora os competidores precisarão lutar para sobreviver a essa macabra disputa.</p>
-              <p>Gênero: <strong>Drama, Suspense</strong></p>
-              <p>Ano de Lançamento: <strong>2021</strong></p>
-              <p>Estrelando: <strong>Lee Jung-jae, Park Hae-soo, Wi Ha-jun</strong></p>
-              <p>Criação: <strong>Hwang Dong-hyuk</strong></p>
-            </div>
-          </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 
-    </section>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-<script src="scripts.js"></script>
+  <script src="scripts.js"></script>
 
 </body>
+
 </html>
