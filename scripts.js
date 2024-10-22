@@ -2,16 +2,10 @@ let buttonSound = document.querySelector(".sound")
 let video = document.querySelector(".main-video")
 let info = document.querySelector(".information")
 let infoBox = document.querySelector(".box")
-let audio = document.querySelector(".audio-opening")
 
 info.addEventListener("click", showInformation)
 infoBox.addEventListener("click", hideInformation)
 
-window.addEventListener("load", playAudio)
-
-function playAudio() {
-    audio.play()
-}
 
 window.addEventListener("load", clickSom)
 

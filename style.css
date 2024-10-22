@@ -46,9 +46,9 @@ body {
 }
 
 .menu a:hover {
-    color: #585656;
+    color: #c5c5c5;
     text-decoration: underline;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .main-video {
