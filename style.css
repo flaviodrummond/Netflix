@@ -9,7 +9,7 @@ body {
     background: #000000;
     position: relative;
     padding-top: 1.2rem;
-    margin-bottom: 12rem;
+    margin-bottom: 8rem;
 }
 
 .img-logo {
@@ -25,17 +25,17 @@ body {
 
 .avatar {
     position: absolute;
-    right: 15%;
+    right: 13%;
     top: 2%;
 }
 
 .menu {
     width: 95%;
-    font-size: 0.8rem;
+    font-size: 0.82rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.8rem;
 }
 
 .menu a {
@@ -48,6 +48,7 @@ body {
 .menu a:hover {
     color: #585656;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .main-video {
@@ -97,37 +98,15 @@ body {
 #carouselExampleControls {
     background-color: transparent;
     position: absolute;
-    bottom: -9.5rem;
+    bottom: -6rem;
     left: 6.5rem;
 }
 
 .tittle-caroseul {
     color: #ffffff;
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-}
-
-.img-sound {
-    width: 1.4rem;
-    height: 1rem;
-}
-
-
-.sound {
-    background-color: transparent;
-    border-radius: 5px;
-    cursor: pointer;
-    z-index: 4;
-    position: absolute;
-    top: 120px;
-    left: 50px;
-    box-shadow: none;
-    border: none;
-}
-
-.sound:hover {
-    transform: scale(0.95);
-    transition: transform 0.3s ease
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+    margin-left: 1.2rem;
 }
 
 .box {
@@ -142,10 +121,11 @@ body {
 }
 
 .box-info {
-    width: 50%;
+    font-size: 0.8rem;
+    width: 60%;
     background-color: #585656;
     margin: 2rem auto;
-    padding: 2rem;
+    padding: 1.5rem;
     color: #ffffff;
     border-radius: 8px;
 
